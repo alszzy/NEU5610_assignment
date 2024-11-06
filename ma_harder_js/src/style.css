@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cell{
+    border:  solid 1px grey;
+    /* height: 100px;
+    width: 100px; */
+}
+.cell.black{
+    background-color: black;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+}
